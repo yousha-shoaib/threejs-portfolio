@@ -1,0 +1,11 @@
+Model Information:
+* title:	Test Planet
+* source:	https://sketchfab.com/3d-models/test-planet-272cfff0dc244bfd9c4ca8658a3013fb
+* author:	TheDrone (https://sketchfab.com/thedrone)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Test Planet" (https://sketchfab.com/3d-models/test-planet-272cfff0dc244bfd9c4ca8658a3013fb) by TheDrone (https://sketchfab.com/thedrone) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
