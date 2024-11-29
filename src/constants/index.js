@@ -20,9 +20,13 @@ import {
   nstpl,
   sym,
   wits,
-  carrent,
-  jobit,
-  tripguide,
+  medicaldatavisualiser,
+  nodemetadata, 
+  oaablog, 
+  reactcalc, 
+  reactdrums,
+  giwusasite,
+  symsite,
   threejs,
 } from "../assets";
 
@@ -197,17 +201,51 @@ const experiences = [
 ];
 
 const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
 ];
 
 const projects = [
+  {
+    name: "GIWUSA Website",
+    description:
+      "Developed an information site for the General Industries Workers Union of South Africa. It's a simple static site with PHP for the contact form",
+    tags: [
+      {
+        name: "HTML5",
+        color: "black-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: giwusasite,
+    source_code_link: "https://giwusa.org.za",
+  },
+  {
+    name: "SYM Website",
+    description:
+      "I developed a blogging platform and information site for the Socialist Youth Movement. The site has a custom CMS that runs on NextJS.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: symsite,
+    source_code_link: "https://socialistyouth.org.za",
+  },
   {
     name: "Open Access Azania Blog",
     description:
@@ -226,50 +264,92 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://yousha-shoaib.github.io/vite-calculator/",
+    image: oaablog,
+    source_code_link: "https://openaccessazania.vercel.app",
   },
   {
-    name: "Job IT",
+    name: "File Metadata Service",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "I wrote an web application to return the metadata from an uploaded file. Serves as a microservice that I use for some of my other deployments",
     tags: [
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: nodemetadata,
+    source_code_link: "https://file-metadata-microservice-uc05.onrender.com/",
+  },
+  {
+    name: "React Calculator",
+    description:
+      "I quick and simple app I built for completion of a freecodecamp certification. Its a simple non-scientific calculator.",
+    tags: [
+      {
+        name: "node.js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: reactcalc,
+    source_code_link: "https://yousha-shoaib.github.io/vite-calculator/",
+  },
+  {
+    name: "React Drum Machine",
+    description:
+      "A simple soundboard built using react and vite. I essentially just built this to learn how to listen to keyboard events and play audio files within react.",
+    tags: [
+      {
+        name: "node.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: reactdrums,
+    source_code_link: "https://yousha-shoaib.github.io/vite-drum-machine/",
+  },
+  {
+    name: "Medical Data Visualiser",
+    description:
+      "A data science project I built which uses python, matplotlib and scipy to visualise outcome data from various patient variables such as: cholesterol, glucose, physical activity, smoking, etc",
+    tags: [
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "flask",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scipy",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: medicaldatavisualiser,
+    source_code_link: "https://yousha-shoaib.github.io/vite-drum-machine/",
   },
 ];
 

@@ -32,11 +32,23 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import react_calculator from "./react_calculator.png";
-import react_drum_machine from "./react_drum_machine.png";
+import nodemetadata from "./node-filemetadata.png"
+import oaablog from "./oaa-blog.png"
+import reactcalc from "./react-calculator.png"
+import reactdrums from "./react_drum_machine.png"
+import giwusasite from "./giwusasite.png"
+import symsite from "./symsite.png"
+import medicaldatavisualiser from './medicaldatavisualiser.png'
 
 export {
   logo,
+  medicaldatavisualiser,
+  nodemetadata, 
+  oaablog, 
+  reactcalc, 
+  reactdrums,
+  giwusasite,
+  symsite,
   backend,
   creator,
   mobile,
@@ -66,6 +78,4 @@ export {
   carrent,
   jobit,
   tripguide,
-  react_calculator,
-  react_drum_machine,
 };
